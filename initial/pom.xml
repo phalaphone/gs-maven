@@ -28,11 +28,11 @@
 
         <repository>
             <id>nexus-releases</id>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://172.18.0.3:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshot</id>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://172.18.0.3:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
 
     </distributionManagement>
